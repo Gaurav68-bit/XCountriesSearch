@@ -3,13 +3,15 @@ import "./countrycard.css";
 
 const Card = ({ flag, name }) => {
   return (
-    <div className="country-card">
+    <div className="countryCard">
       <img
         src={flag}
         alt={`flag of ${name}`}
         style={{ width: "100px" }}
       />
       <h2>{name}</h2>
+      <p></p>
+      <span></span>
     </div>
   );
 };
